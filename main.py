@@ -102,7 +102,7 @@ ruta_descarga = current_path
 nombre_archivo = ""
 
 bg_image = CTkImage(Image.open(current_path + "/fondo.png"), size=(1280, 720))
-bg_image_label = CTkLabel(root, image=bg_image)
+bg_image_label = CTkLabel(root, image=bg_image, text="")
 bg_image_label.grid(row=0, column=0)
 
 frame = CTkFrame(master=root, width=300, height=600, corner_radius=0, bg_color=c_negro)
